@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566995960669.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1671298058",
+    "id" : "7C7F2A42",
+    "lastKnownWriteTime" : 1566774798,
+    "last_content_update" : 1566774798,
+    "path" : "~/Masters_Summer_Project/1st Experiment Ontogenic transfer/Fisher's test for microsphere comparison.R",
+    "project_path" : "Fisher's test for microsphere comparison.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

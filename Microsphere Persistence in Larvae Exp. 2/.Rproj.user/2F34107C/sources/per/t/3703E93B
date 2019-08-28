@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1566999323442.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1940543483",
+    "id" : "3703E93B",
+    "lastKnownWriteTime" : 1566998811,
+    "last_content_update" : 1566998811,
+    "path" : "~/Masters_Summer_Project/Microsphere Persistence in Larvae Exp. 2/Persistence.R",
+    "project_path" : "Persistence.R",
+    "properties" : {
+        "cursorPosition" : "17,33",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,37 @@
+#Packaged used
+library(dplyr)
+
+#Code used to conduct a Fisher's exact test
+larvae<- read.csv("Larvae test.csv", row.names = 1)
+larvae<- as.matrix(larvae)
+fisher.test(larvae)
+
+#Code used to create the bar plots 
+l<- read.csv("Graph.csv")
+
+svg("Graph_Larvae.svg", width = 5, height = 7)
+barplot(l$Present, main = "Presence of Microspheres in Larvae", xlab = "Type of Microsphere", ylim = c(0,30), ylab = "Number of Individuals with Microspheres", names.arg = c("Latex", "PLGA"), col = c("red", "blue"))
+dev.off()
+
+##########################################################################################################################################################
+
+#Code used to conduct a Fisher's exact test
+pupae<- read.csv("Pupae data.csv", row.names = 1)
+pupae<- as.matrix(pupae)
+fisher.test(pupae)
+
+##########################################################################################################################################################
+
+#Code used to conduct a Fisher's exact test
+Adult<- read.csv("Adult data.csv", row.names = 1)
+Adult<- as.matrix(Adult)
+fisher.test(Adult)
+
+#Code used to create the bar plots
+A<- read.csv("Graph_A.csv")
+
+svg("Graph_Adults.svg", width = 5, height = 7)
+barplot(A$Present, main = "Presence of Microspheres in Adults", xlab = "Type of Microsphere", ylim = c(0,30), ylab = "Number of Individuals with Microspheres", names.arg = c("Latex", "PLGA"), col = c("red", "blue"))
+dev.off()
+
+
